@@ -8,6 +8,7 @@ mod dtb_generator;
 mod dtb_parser;
 mod dts_generator;
 mod dts_parser;
+pub use dts_parser::DtsParser;
 mod node;
 pub use node::Node;
 mod property;
